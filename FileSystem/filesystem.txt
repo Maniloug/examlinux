@@ -1,0 +1,30 @@
+﻿				        FileSystem
+
+-     les formats de fichiers (.png, .txt, .jpeg) :
+
+          .png : 
+          Images de haute qualité sans perte, idéales pour les graphiques et les logos. 
+          Prise en charge de la transparence. 
+      .txt : 
+          Texte brut simple, utilisé pour les fichiers de configuration et les documents texte de base. 
+          Très compatible avec tous les éditeurs de texte. 
+      .jpeg : 
+          Images compressées avec perte, parfaites pour les photographies. 
+          Réduction de la taille des fichiers. 
+    • Le .png garde la qualité. 
+    • le .txt garde que le texte. 
+    • le .jpeg réduit la taille.
+-
+
+
+- L’utilité de #!/usr/bin/bash et la différence avec le lancement du script :
+
+  #!/usr/bin/bash (shebang) : 
+    • Dit au système d'utiliser Bash pour exécuter le script. 
+    • Permet une exécution directe (./script). 
+    • Nécessite les permissions d'exécution. 
+      bash script : 
+    • Invoque explicitement Bash pour exécuter le script. 
+    • Fonctionne même sans shebang ou permissions d'exécution. 
+    • Exécute le script dans le contexte de l'interpréteur bash invoqué.
+

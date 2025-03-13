@@ -1,0 +1,12 @@
+﻿                                          Commendes
+
+- En quelques mots, voici la différence principale :
+      if/else: 
+        ◦ Utilisé pour des conditions variées (comparaisons, plages de valeurs, etc.). 
+        ◦ Plus flexible pour des tests complexes. 
+      switch (ou case en Bash): 
+        ◦ Idéal pour comparer une variable à des valeurs spécifiques. 
+        ◦ Plus concis et lisible quand il y a de nombreux cas à vérifier.
+
+
+

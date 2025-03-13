@@ -1,0 +1,27 @@
+﻿Environ
+
+
+
+- L'opération pip freeze > requirements.txt permet de figer l'état de votre environnement virtuel, ce qui est indispensable pour la reproductibilité, la gestion des dépendances et le déploiement de vos projets Python.
+
+- l'ajout de pythonvenv/ à .gitignore est une bonne pratique qui permet de garder votre dépôt Git propre, léger et reproductible.
+
+
+
+- voici d'autres fichiers et dossiers qu'il serait approprié d'ajouter à votre fichier .gitignore :
+    • Fichiers de configuration spécifiques à l'environnement (.env,.config.ini…)
+    • Fichiers temporaires et de cache (.pyc, .log..)
+    • Dossiers de dépendances 
+    • fichiers de données sensibles (.csv,.xlsx…)
+    • Fichiers de l'IDE
+
+
+- Pourquoi ignorer ces fichiers et dossiers ?
+    • Sécurité : Pour éviter d'exposer des informations sensibles. 
+    • Performance : Pour réduire la taille du dépôt et accélérer les opérations Git. 
+    • Propreté : Pour garder le dépôt propre et organisé. 
+    • Compatibilité : Pour éviter les problèmes de compatibilité entre les différents environnements de développement.
+- Les commandes apt update et apt upgrade sont des outils essentiels pour la gestion des logiciels sur les systèmes Linux basés sur Debian (comme Ubuntu). Elles travaillent de concert, mais ont des fonctions distinctes
+
+    • apt update met à jour les listes de paquets disponibles. 
+    • apt upgrade installe les mises à jour des logiciels déjà installés.

@@ -1,0 +1,7 @@
+﻿                              Permissions 
+
+- La commande sudo chmod g+x owned_by_toto ajoute le droit d'exécution au groupe propriétaire du fichier "owned_by_toto". Cela signifie que tous les utilisateurs qui appartiennent au groupe propriétaire de ce fichier pourront l'exécuter.
+
+
+
+-La commande sudo chown root:root owned_by_toto change le propriétaire du fichier "owned_by_toto" en l'utilisateur "root" et le groupe propriétaire en le groupe "root". Après l'exécution de cette commande, seul l'utilisateur "root" aura un contrôle total sur le fichier, à moins que les permissions du fichier ne soient modifiées.

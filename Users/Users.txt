@@ -1,0 +1,29 @@
+﻿                                                Users 
+
+- L’utilité du mot sudo :
+
+sudo est un outil essentiel pour effectuer des tâches d'administration en toute sécurité sur les systèmes d'exploitation de type Unix (comme Linux et macOS).
+
+- Non ,sudo n'est pas une commande accessible à tous les utilisateurs. Son utilisation est réservée à ceux qui ont été explicitement autorisés par l'administrateur système.
+
+ 
+- Pour donner à Toto le droit d'utiliser sudo spécifiquement pour la commande apt install, vous devez modifier le fichier /etc/sudoers en utilisant la commande visudo. Voici les étapes à suivre :
+
+    • Ouvrez le fichier /etc/sudoers
+    • Ajoutez la règle pour Toto
+    • Enregistrez et fermez le fichier
+
+
+- Comment donner à Toto le droit d'utiliser "sudo" en permanence :
+
+    • La méthode la plus courante et généralement recommandée consiste à ajouter Toto au groupe sudo (ou wheel). 
+    • La modification directe du fichier /etc/sudoers est également possible, mais moins recommandée.
+
+-le compte root soit nécessaire pour certaines tâches d'administration, il est essentiel de limiter son utilisation et de privilégier l'utilisation de sudo avec des comptes d'utilisateurs distincts pour des raisons de sécurité et de traçabilité.
+
+
+- Pour afficher un message de bienvenue personnalisé à chaque fois que Toto démarre un shell,voici les étapes à suivre :
+    • Ouvrez le fichier de configuration de shell de Toto
+    • Ajoutez la commande d'affichage du message
+      À la fin du fichier ~/.bashrc, ajoutez la ligne suivante :(echo "Bienvenue Toto")
+    • Enregistrez et fermez le fichier
