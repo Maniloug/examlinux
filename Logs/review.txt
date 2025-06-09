@@ -1,0 +1,2 @@
+Bien
+A noter qu'il est possible de simplifier la manipulation du fichier journal avec sudo systemctl edit systemd-journald
