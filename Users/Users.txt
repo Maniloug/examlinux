@@ -4,6 +4,8 @@
 
 sudo est un outil essentiel pour effectuer des tâches d'administration en toute sécurité sur les systèmes d'exploitation de type Unix (comme Linux et macOS).
 
+Cela augmente les droits pour avoir les mêmes droits qu'un superutilisateur lors d'une commande.
+
 - Non ,sudo n'est pas une commande accessible à tous les utilisateurs. Son utilisation est réservée à ceux qui ont été explicitement autorisés par l'administrateur système.
 
  
@@ -20,6 +22,8 @@ sudo est un outil essentiel pour effectuer des tâches d'administration en toute
     • La modification directe du fichier /etc/sudoers est également possible, mais moins recommandée.
 
 -le compte root soit nécessaire pour certaines tâches d'administration, il est essentiel de limiter son utilisation et de privilégier l'utilisation de sudo avec des comptes d'utilisateurs distincts pour des raisons de sécurité et de traçabilité.
+
+-> Le point important à noter est qu'utiliser sudo élève les droits mais uniquement pour la commande qui suit et surtout cela demandera le mot de passe contrairement à root qui peut tout supprimer sans qu'on ne lui demande aucune vérification
 
 
 - Pour afficher un message de bienvenue personnalisé à chaque fois que Toto démarre un shell,voici les étapes à suivre :
